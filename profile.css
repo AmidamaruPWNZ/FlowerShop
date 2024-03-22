@@ -1,0 +1,23 @@
+body { 
+    background: linear-gradient(to bottom, #a2cefa, #a2cefa, #a2cefa, #e8a87c) no-repeat;
+    color: white;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form{
+    font-size: 30px;
+    width: 700px;
+    height: 97.5vh;
+    background: radial-gradient(
+      at top center,
+      #a2cefa,
+      #aaceff,
+      #aaceff,
+      #ffffff
+    );
+    border-radius: 10px;
+  }

@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(to bottom, #a2cefa, #a2cefa, #a2cefa, #e8a87c);
+  /* background:linear-gradient(to bottom,#a2cefa,#a2cefa,#a2cefa, #507bca); */
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+a:active {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+.form {
+  position: absolute;
+  top: +20.3rem;
+  width: 350px;
+  height: 280px;
+  background: radial-gradient(
+    at top center,
+    #a2cefa,
+    #aaceff,
+    #aaceff,
+    #ffffff
+  );
+  /* background:linear-gradient(to bottom,#a2cefa ,#a2cefa, #E8A87C); */
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: -8rem;
+  margin-top: 0px;
+  width: 350px;
+}
+
+.flower_image {
+  width: 700px;
+  height: 452px;
+  background: url(flower_shop.jpg) no-repeat;
+  background-size: 100%;
+  margin-bottom: 0px;
+  position: relative;
+  top: -2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p0 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.p1 {
+  margin-top: 0px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  left: -4.4rem;
+}
+.p2 {
+  margin-top: 0px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  left: -4.2rem;
+}
+
+.links {
+  color: white;
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.input_login {
+  width: 250px;
+  height: 35px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: none;
+  padding-left: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.input_password {
+  width: 250px;
+  height: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+  padding-left: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.button {
+  background-color: #ffffff;
+  color: darkcyan;
+  width: 140px;
+  height: 35px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}

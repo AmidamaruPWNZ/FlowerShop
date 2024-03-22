@@ -1,0 +1,107 @@
+body {
+    /* background:linear-gradient(to bottom,#a2cefa,#a2cefa,#a2cefa, #E8A87C, #E8A87C, #E8A87C, #E8A87C); */
+    /* background:linear-gradient(to bottom,#a2cefa,#a2cefa,#a2cefa, #507bca); */
+    background:#a2cefa;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden;  */
+    }
+.content{
+    display: inline;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1330px; 
+    height: 70px;
+    margin-top: 0px;
+    /* background: linear-gradient(#a2cefa,#E8A87C); */
+    background: linear-gradient(#a2cefa,#a2cefa,#ffffff);
+    border-radius: 10px;
+    z-index: 1;
+}
+.form2{
+    position: relative;
+    right: -32.2rem;
+    top: -2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    width: 500px; 
+    height: 550px;
+    margin-top: 0px;
+    background: #ffffff;
+    background:radial-gradient(at center,#a2cefa,#aaceff,#ffffff,#ffffff );
+    border-radius: 10px;
+}
+
+.flower_image{
+    width: 700px;
+    height: 452px; 
+    background: url(flower_shop.jpg) no-repeat;
+    background-size: 100%;
+    margin-bottom: 0px;
+    position: relative;
+    left: -17rem;
+    top: -35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.p0{
+    z-index: 2;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    position: relative;
+    top: -34rem;
+    left: -4.25rem;
+}
+.links{
+    display: inline;
+    color:black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.p_news{
+    color:black;
+    padding: 10px;
+    width: 470px; 
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    background: linear-gradient(#a2cefa,#aaceff,#ffffff);
+    border-radius: 10px;
+}
+.news{
+    color:black;
+    position: relative;
+    padding: 10px;
+    width: 470px; 
+    height: 420px;
+    margin-top: 0px;
+    background: linear-gradient(#a2cefa,#a2cefa,#ffffff);
+    border-radius: 10px;
+}
+.links a{
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+    padding:30px;
+  }
+
+  .icon{
+      position: relative;
+      left:-20rem;
+      background: url(lotus.png);
+      width: 60px;
+      height: 30px;
+  }
